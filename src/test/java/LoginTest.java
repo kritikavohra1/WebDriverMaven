@@ -19,7 +19,7 @@ public class LoginTest {
     @Test
     public void doLogin(){
 
-        driver.get("http://gmailsd.com");
+        driver.get("http://gmail.com");
         driver.findElement(By.xpath("//*[@id=\"identifierId\"]")).sendKeys("trainer@way2automation.com");
         //driver.findElement(By.xpath("//*[@id=\"identifierNext\"]/div/button/span")).click();
         System.out.println("Test push");
